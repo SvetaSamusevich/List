@@ -1,0 +1,18 @@
+﻿{
+	"Road":"dop2.json",
+	"List":[
+		{
+		  "text":"fgh",
+		  "necessarily":true
+		 },
+		{
+		  "text":"hjk",
+		  "necessarily":true
+		},
+		{
+		  "text":"wer",
+		  "necessarily":true
+		}
+	]
+	
+}

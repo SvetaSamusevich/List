@@ -1,0 +1,18 @@
+﻿{
+	"Road":"module/roster/second json/dop1.json",
+	"List":[
+		{
+		  "text":"a",
+		  "necessarily":true
+		 },
+		{
+		  "text":"b",
+		  "necessarily":false
+		},
+		{
+		  "text":"c",
+		  "necessarily":true
+		}
+	]
+	
+}

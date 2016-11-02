@@ -1,0 +1,17 @@
+﻿{	
+	"List":[
+		{
+		  "text":"asd",
+		  "necessarily":true
+		 },
+		{
+		  "text":"uio",
+		  "necessarily":true
+		},
+		{
+		  "text":"pol",
+		  "necessarily":false
+		}
+	]
+	
+}
