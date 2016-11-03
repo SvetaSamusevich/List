@@ -1,0 +1,36 @@
+﻿<!doctype html>
+<html ng-app="App">
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  </head>
+  <body>
+    <div ng-controller="MainController as main">
+      
+	  
+	  
+	  <p><button ng-click="main.load()">create list</button></p>
+	  
+	  
+	  <li ng-repeat="el in main.object.firstList">
+		<span ng-class="{tall:!el.necessarily}">{{el.text}}</span>
+		<input type="checkbox" ng-modl="!el.necessarily">			
+	  </li>
+	  
+	  <li ng-repeat="el in main.object.secondList">
+		<span ng-class="{tall:!el.necessarily}">{{el.text}}</span>  
+	  </li>
+	  
+	  <li ng-repeat="el in main.object.thirdList">
+		<span ng-class="{tall:!el.necessarily}">{{el.text}}</span>  
+	  </li>
+	  
+    </div>
+	<script src="js/main.js"></script>
+	<script src="js/main.controller.js"></script>
+	<script src="js/service/service.module.js"></script>
+	<script src="js/service/list.service.js"></script>
+	
+	
+  </body>
+</html>
